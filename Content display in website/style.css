@@ -1,0 +1,24 @@
+.img1 {
+  position: relative;
+  opacity: 0.7;
+  background-image: url("images/zaul-portfolio.png");
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: rgba(20, 20, 20, 0.995);
+  color: #b6aeae;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border .transparent {
+  background-color: transparent;
+}
