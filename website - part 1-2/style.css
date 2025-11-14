@@ -1,0 +1,93 @@
+.grid-container {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+
+  grid-template-areas:
+    "header header header"
+    "navigation navigation navigation"
+    "menu main main"
+    "menu footer footer";
+
+  background-color: rgb(247, 25, 0);
+
+  padding: 10px;
+
+  height: 500px;
+}
+
+div.grid-container > div {
+  background-color: #96e6ee;
+
+  border: 1px solid #000;
+
+  padding: 20px;
+
+  text-align: center;
+}
+
+.grid-item1 {
+  grid-area: header;
+}
+
+.grid-item2 {
+  grid-area: menu;
+}
+
+.grid-item3 {
+  grid-area: main;
+}
+
+.grid-item4 {
+  grid-area: footer;
+}
+
+.grid-item5 {
+  grid-area: navigation;
+}
+
+/* Element Selector */
+
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+/* Class Selector */
+
+.navbar {
+  background-color: #333;
+
+  overflow: hidden;
+}
+
+/* Group Selector*/
+
+.navbar a {
+  float: left;
+
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+/* Pesudo Selector */
+
+.navbar a:hover {
+  background-color: #eaf3a4;
+
+  color: black;
+}
+.media-icon {
+  float: left;
+  top: 100px;
+}
